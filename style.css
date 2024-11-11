@@ -123,6 +123,51 @@ section {
     color: var(--white);
 }
 
+.home-container {
+    background: url(../hero.jpeg.jpeg), rgba(0, 0, 0, .7) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: color;
+}
+
+.home-container .home {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-container .home form {
+    background-color: var(--white);
+    width: 50rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.home-container .home form h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.home-container .home form p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    padding-top: 1rem;
+}
+.home-container .home form .input {
+    width: 100%;
+    border-radius: .5rem;
+    margin: 1rem 0;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+}
 
 
 
@@ -144,23 +189,70 @@ section {
 
 
 
+.footer .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .grid .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+footer .grid .box a {
+    display: block;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+} 
+
+footer .grid .box a i {
+    color: var(--main-color);
+    margin-right: .8rem;
+    transition: .2s linear;
+}
+
+.footer .grid .box a:hover i{
+    margin-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    background-color: var(--white);
+    font-size:  2rem;
+    color: var(--light-color);
+    line-height: 1.5rem;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+    text-transform: capitalize;
+}
 
 
 
 
 
 
-@media (max-width:991px) {
+@media (max-width: 991px){
 
-    html {
+    html{
         font-size: 55%;
     }
 
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px){
 
-    #manu-btn {
+    #manu-btn{
         display: inline-block;
     }
 
@@ -187,10 +279,10 @@ section {
     
 }
 
-@media (max-width:450px) {
+@media (max-width:450px){
 
-    html {
+    html{
         font-size: 50%;
     }
     
-}
+} */
