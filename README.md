@@ -22,3 +22,11 @@ A simple Job Portal web application built with **HTML**, **CSS**, and **JavaScri
 
    ```bash
    git clone https://github.com/amankumarthakur63/job-portal.git
+job-portal/
+│
+├── index.html          # The main landing page of the portal
+├── style.css           # Main stylesheet for the project
+├── script.js           # JavaScript file for interactive features
+└── assets/             # Folder containing images, icons, and other static assets
+    ├── logo.png
+    └── hero-image.jpg
