@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <section class="flex">
@@ -13,7 +15,7 @@
             <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
             <a href="index.html" class="logo"><i class="fas fa-briefcase"></i>
-            Jobhunt.</a>
+                Jobhunt.</a>
 
             <nav class="navbar">
                 <a href="index.html">Home</a>
@@ -26,9 +28,74 @@
             <a href="#" class="btn" style="margin-top: 0;">post job</a>
         </section>
 
-        
+
     </header>
 
+
+    <!-- contact us section starts -->
+
+    <div class="section-title">contact us</div>
+
+    <section class="contact">
+
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <a href="mob: 8384075974">838-407-5974</a>
+                <a href="mob: 8084075374">808-407-5374</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto: amankumar@gmail.com">amankumar@gmail.com</a>
+                <a href="amankumarji@gmail.com">amankumarji@gmail.com</a>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="#">H. No. 271 Rose Garden, jalandhar, india - 144002</a>
+            </div>
+
+        </div>
+
+        <form action="" method="post">
+            <h3>drop your message</h3>
+            <div class="flex">
+                <div class="box">
+                    <p>name <span>*</span></p>
+                    <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+                </div>
+
+                <div class="box">
+                    <p>email <span>*</span></p>
+                    <input type="text" name="email" required maxlength="50" placeholder="enter your email" class="input">
+                </div>
+
+                <div class="box">
+                    <p>number <span>*</span></p>
+                    <input type="text" name="number" required min="0" max="9999999999" maxlength="20" placeholder="enter your number" class="input">
+                </div>
+
+                <div class="box">
+                    <p>name <span>*</span></p>
+                    <select name="role" required class="input">
+                        <option value="employee">job seeker (employee) </option>
+
+                        <option value="employeer">job provider (employeer) </option>
+                    </select>
+                </div>
+
+            </div>
+            <p>message <span>*</span></p>
+            <textarea name="message" class="input" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+    </section>
+    <!-- contact us section ends -->
 
 
 
@@ -58,7 +125,7 @@
             <div class="box">
                 <h3>extra links</h3>
                 <a href="#"><i class="fas fa-angle-right"></i>filter search</a>
-                <a href="login.html"><i class="fas fa-angle-right"></i>   login</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i> login</a>
                 <a href="register.html"><i class="fas fa-angle-right"></i> register</a>
                 <a href="#"><i class="fas fa-angle-right"></i> post job</a>
                 <a href="#"><i class="fas fa-angle-right"></i> dashboard</a>
@@ -75,10 +142,11 @@
         </section>
 
         <div class="credit">&copy; copyright @2024 by <span>mr. aman kumar</span> | all rights reversed!</div>
-        
+
     </footer>
-    
-     <!-- footer section ends -->
+
+    <!-- footer section ends -->
     <script src="script.js"></script>
 </body>
+
 </html>
