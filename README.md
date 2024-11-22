@@ -21,21 +21,39 @@ The website consists of the following pages:
 
 ## Project Structure
 
-/JobPortalWebsite
-│
-├── index.html            # Home page of the website
-├── about.html            # About page
-├── all-jobs.html         # Page displaying all job listings
-├── contact.html          # Contact page with a contact form
-├── account.html          # User login and registration page
-│
-├── css/
-│   ├── style.css         # Main stylesheet for the website
-│
-├── js/
-│   ├── script.js         # JavaScript functionality for interactive forms and filters
-│
-└── images/
-    ├── logo.png          # Logo for the website
-    └── ...               # Other images (e.g., icons, background images)
+1. index.html
+   - The home page of the website.
+
+2. about.html
+   - The About page, which provides information about the portal's mission.
+
+3. all-jobs.html
+   - The page displaying all available job listings.
+
+4. contact.html
+   - The Contact page with a form for users to reach out to the portal team.
+
+5. account.html
+   - The page for user login and registration forms.
+
+6. css/
+   - A folder containing all the stylesheets for the website.
+
+   - style.css
+     - The main stylesheet for the website.
+
+7. js/
+   - A folder containing JavaScript files to provide interactivity on the website.
+
+   - script.js
+     - The JavaScript file containing functionality for interactive forms and filters.
+
+8. images/
+   - A folder containing images used on the website.
+
+   - logo.png
+     - The website's logo image.
+
+   - Other image files (e.g., icons, background images, etc.) could be placed here.
+
 
